@@ -1,0 +1,174 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    background-color: rgb(219, 219, 255);
+}
+
+#pokelogo {
+
+    width: 20%;
+    margin: 5rem auto 0px auto;
+}
+
+h1 {
+
+    font-size: 40px;
+    margin: 25px auto 10px auto;
+}
+
+#maintext {
+
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+input {
+
+    width: 25%;
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-family: inherit;
+    margin: 0 auto;
+}
+
+
+#search {
+
+    width: 10%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background: rgb(101, 101, 255);
+    color: #fff;
+
+    cursor: pointer;
+
+    background: linear-gradient(to right, #fff 50%, rgb(101, 101, 255) 50%);
+    background-position: 100% 0%;
+    background-size: 200% 100%;
+    transition: all 0.4s ease;
+}
+
+
+#search:hover {
+
+    background-position: 0% 50%;
+    color: #000;
+    transition: all 0.4s ease;
+}
+
+
+
+/* poke-box design */
+
+.poke-box {
+
+    padding-bottom: 40px;
+}
+
+.pokemon {
+
+    text-align: center;
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 15px;
+}
+
+.pokemon-alap,
+.pokemon-3d {
+
+    background: #fff;
+    height: 250px;
+    width: 220px;
+    border-radius: 10px;
+    padding: 20px;
+
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.pokemon-3d {
+
+    padding-top: 30px;
+}
+
+.pokemon-alap:hover,
+.pokemon-3d:hover {
+
+    transform: translateY(-5px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.pokemon img {
+
+    width: 150px;
+}
+
+.pokemon .pokemon-name {
+
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.poke-item {
+
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.poke-item h4 {
+
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+
+
+/* poke-empty design */
+
+.poke-empty {
+
+    width: 800px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    width: 50%;
+    margin-bottom: 40px;
+
+}
+
+.pokemon-all-text {
+
+    color: red;
+}
