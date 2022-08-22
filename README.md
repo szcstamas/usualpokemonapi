@@ -1,2 +1,3 @@
 # Just another Pokemon Api...
 A simple Javascript application with API fetch.
+Link to the project: <a href="https://szcstamas.github.io/usualpokemonapi/">https://szcstamas.github.io/usualpokemonapi/</a>
